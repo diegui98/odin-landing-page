@@ -135,3 +135,34 @@ p{
     align-self: flex-end;
     font-weight: 900;
 }
+
+#call-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#call-container > div{
+    background-color: #3882F6;
+    border-radius: 12px;
+    color: #f9faf8;
+    padding: 30px 80px;
+    display: flex;
+}
+
+.call-txt{
+    flex: 1;
+}
+
+.call-txt-header {
+    font-weight: 900;
+}
+
+#call-container > div > button{
+    width: 100px;
+    height: 40px;
+    background-color: inherit;
+    color: #f9faf8;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: white;
+}
